@@ -1,1 +1,75 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial,  sans-serif;
+    color: rgb(205, 215, 226);
+    background-color: rgb(32, 34, 37);
+    
+}
+main {
+    font-family: Helvetica, Arial,  sans-serif;
+     background-color: rgb(202, 207, 214); 
+    
+}
 
+address span {
+    letter-spacing: 2px;
+    line-height: 2;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+ nav {
+    position: fixed;
+ }
+.navbar{
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    
+    background-color: rgb(37, 61, 104);
+    z-index: 99;
+    overflow-x: hidden;
+}
+.navitem {
+    align-content: center;
+    position: relative;
+    left: 7%;
+    margin: 0;
+}
+
+.navitem li{
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    list-style-type: none;
+    width: 20%;   
+}
+ 
+
+.navitem li a {
+    display: block;
+    font-family: Helvetica, Arial,  sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.959);
+}
+
+.navitem li:hover  {
+    background-color: rgb(71, 82, 133);
+    height: 60px;
+    color: rgba(255, 255, 255, 0.959);
+  
+} 
+.maincontent {
+    padding: 10px;
+    padding-bottom: 40px;
+    text-align:center ;
+    min-height: 800px;
+}
+.maincontent  h1, h2, h3{
+    text-transform: capitalize;
+}
