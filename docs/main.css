@@ -1,75 +1,136 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial,  sans-serif;
-    color: rgb(205, 215, 226);
-    background-color: rgb(32, 34, 37);
+body {
+    background: white;
+    box-shadow: 0 0 2px rgba(74, 46, 202, 0.253);
+    margin: 0 auto;
+    width: 80%;
     
-}
-main {
-    font-family: Helvetica, Arial,  sans-serif;
-     background-color: rgb(202, 207, 214); 
+       
+   }
+   .maincontent {
+     background-color: rgb(245, 244, 244);
+     padding: 2em 2em 4em;
+     min-height: 800px;
+   }
+   h2 {
+   
+       color: navy;
+       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   } 
+   h3 {
+   
+     color:rgb(65, 64, 64);
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   } 
+   address {
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   }
+   nav{
+     position: fixed;
+   }
+   .navbar {
+     width: 100%;
+     background-color: rgb(0, 107, 179);
+     height: 40px;
+     position: sticky;  top: -0.1px; 
+     box-shadow: 0 0 2px rgba(74, 46, 202, 0.253);
+     
+   }
+   .header{
+     padding-top: 30px;
+     padding-bottom: 20px;
+     background-color: rgb(53, 53, 88);
+     margin: 0px;
+     border: 0px;
+   }
+   .mainheader {
+       text-align: left; 
+       padding-left: 10px;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+     margin: 0px;
+     color: white;
+   }
+   
+   h1 {
+     color: navy;
+     
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   }
+   p{
+     color: black;
+     font-size: 17px;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   }
+   
+    .mainbar {
+      
+     color: white;
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
     
-}
-
-address span {
-    letter-spacing: 2px;
-    line-height: 2;
-    font-weight: bolder;
-    margin-bottom: 10px;
-}
- nav {
-    position: fixed;
- }
-.navbar{
-    justify-content: space-between;
-    width: 100%;
-    height: 60px;
-    margin: 0;
+    .mainitem {
+     color: white;
+     float: left;
+     width: 200px; 
+     opacity: .8;
+     line-height: 40px;
+     text-align: center;
+     font-size: 20px;
+     
+    }
+    ul {
+     color: black;
+     font-size: 17px;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
     
-    background-color: rgb(37, 61, 104);
-    z-index: 99;
-    overflow-x: hidden;
-}
-.navitem {
-    align-content: center;
-    position: relative;
-    left: 7%;
-    margin: 0;
-}
+    .mainitemtext {
+     color: white; 
+     text-decoration: none;
+     display: block; 
+     background-color: rgb(0, 107, 179);
+     
+    }
+    
+    .mainitemtexthover a:hover {
+     background-color:rgba(109, 7, 243, 0.466);
+     
+    }
+    
+    .dropitem {
+     display: none;
+    }
+    
+    nav ul li:hover ul li {
+     display: block;
+     
+    }
+   
+    table, th, td {
+       border: 2px solid black;
+       border-collapse: collapse;
+     text-align: left;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   }
+   
+   td, th {
+     padding: 10px 10px;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     
+   }
+   .thefoot {
+     min-height: 200px;
+     padding-top: 20px;
+     padding-left: 2em;
+     padding-right: 2em;
+     border: 0px;
+     margin: 0px;
+    
+     width: 100%;
 
-.navitem li{
-    display: inline-block;
-    text-align: center;
-    line-height: 60px;
-    list-style-type: none;
-    width: 20%;   
-}
- 
-
-.navitem li a {
-    display: block;
-    font-family: Helvetica, Arial,  sans-serif;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 20px;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.959);
-}
-
-.navitem li:hover  {
-    background-color: rgb(71, 82, 133);
-    height: 60px;
-    color: rgba(255, 255, 255, 0.959);
-  
-} 
-.maincontent {
-    padding: 10px;
-    padding-bottom: 40px;
-    text-align:center ;
-    min-height: 800px;
-}
-.maincontent  h1, h2, h3{
-    text-transform: capitalize;
-}
+   }
+   .thefoot p a {
+    font-size: 72;
+   }
