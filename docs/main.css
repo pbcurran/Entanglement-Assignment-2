@@ -1,13 +1,17 @@
-body {
-    background: white;
-    box-shadow: 0 0 2px rgba(74, 46, 202, 0.253);
+
+html {
     margin: 0 auto;
-    width: 80%;
+    background-color: rgb(148, 148, 148) !important;
+}
+body {
     
-       
+    box-shadow: 0 0 2px rgba(74, 46, 202, 0.253);
+     margin: 0 auto;
+    width: 80%;
    }
    .maincontent {
-     background-color: rgb(245, 244, 244);
+      
+    background-color: rgb(231, 229, 229) !important;
      padding: 2em 2em 4em;
      min-height: 800px;
    }
@@ -122,15 +126,16 @@ body {
    }
    .thefoot {
      min-height: 200px;
+     background-color: rgb(54, 54, 54);
      padding-top: 20px;
-     padding-left: 2em;
-     padding-right: 2em;
      border: 0px;
      margin: 0px;
-    
      width: 100%;
 
    }
-   .thefoot p a {
-    font-size: 72;
+   .thefoot p a, .thefoot p  {
+       text-align: center;
+       text-decoration: none;
+    font-size: 20;
+    color: rgb(255, 255, 255);
    }
