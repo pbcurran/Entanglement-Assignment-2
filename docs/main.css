@@ -15,6 +15,18 @@ body {
      padding: 2em 2em 4em;
      min-height: 800px;
    }
+   #homepageheader{
+text-align: center;
+margin-bottom: 70px;
+font-size: 40px;
+text-transform: uppercase;
+   }
+   figcaption{
+     text-align: center;
+     color: black;
+     font-size: 15px;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   }
    h2 {
    
        color: navy;
@@ -49,15 +61,20 @@ body {
    }
    .mainheader {
        text-align: center; 
-       padding-left: 10px;
+       padding-left: 40px;
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
      margin: 0px;
      color: white;
+     
+   }
+   .mainheader a {
+    color: white;
+   text-decoration: none;
    }
    
    h1 {
      color: navy;
-     
+     text-transform: capitalize;
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    }
    p{
@@ -67,7 +84,8 @@ body {
    }
    
     .mainbar {
-      
+     display: flex; 
+     justify-content: left;
      color: white;
      margin: 0px;
      padding: 0px;
@@ -76,6 +94,7 @@ body {
     }
     
     .mainitem {
+      flex-grow: 1;
      color: white;
      float: left;
      width: 200px; 
@@ -92,6 +111,7 @@ body {
     }
     
     .mainitemtext {
+    text-transform: uppercase;
      color: white; 
      text-decoration: none;
      display: block; 
@@ -124,6 +144,13 @@ body {
      padding: 10px 10px;
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
      
+   }
+   img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+
    }
    .thefoot {
      min-height: 200px;
